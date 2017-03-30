@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Stickers set</title>
+	<link rel="stylesheet" href="viewer.css" type="text/css"/>
+	<script src="viewer.js"></script>
+</head>
+<body>
+	<div id="body">
+		<div class="card card_top card_bottom card_nomargin">
+			<input type="checkbox" id="load_local_img" title="load line sticker images from drive"/>
+			<a id="kbd" href="https://www.emojicopy.com/" target="_blank" title="emoji keyboard for input">emoji kbd</a>
+			<label for="cfg_file" class="button">Select File:</label>
+			<input type="file" id="cfg_file"/>
+			<div id="editor">
+				<button id="edit_cfg">editor <span>off</span></button>
+				<button id="save_cfg">save config</button>
+			</div>
+		</div>
+		<div id="sticker_cards">
+		</div>
+		<div id="extra_editor">
+		</div>
+	</div>
+</body>
+</html>

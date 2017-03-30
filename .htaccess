@@ -1,0 +1,7 @@
+Options All -Indexes
+DirectoryIndex viewer/index.html
+
+RewriteEngine On
+RewriteRule viewer\.html viewer/viewer.html
+RewriteRule viewer\.css viewer/viewer.css
+RewriteRule viewer\.js viewer/viewer.js

@@ -1,0 +1,116 @@
+body{
+	font-size: 16px;
+	line-height: 20px;
+	font-family: verdana, tahoma, arial, sans-serif, "Lucida Sans";
+	background: #DDD;
+	padding: 5px;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: blue;
+}
+a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+button:hover{
+	cursor: pointer;
+}
+img{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#body{
+	margin: 0 auto;
+	width: 1120px;
+	padding: 5px;
+}
+
+#load_local_img, #kbd{
+	float: right;
+}
+
+.card{
+	text-align: center;
+	background: #FFF;
+	border-bottom: 1px solid #AAA;
+	border-right: 1px solid #AAA;
+	box-sizing: border-box;
+	padding: 5px;
+}
+
+.card_top{
+	margin-top: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.card_bottom{
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.card_nomargin{
+	margin-top: 0;
+}
+
+.card_image {
+	display: flex;
+	vertical-align: middle;
+	height: 219px;
+}
+
+.card_inline {
+	display: inline-block;
+	padding: 0 2.5px 0 2.5px;
+	vertical-align: top;
+	width: 219px;
+}
+
+.edit_hide, #editor, #download_cfg{
+	display: none;
+}
+
+#list {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#h1{
+	font-size: 32px;
+	line-height: 36px;
+	font-weight: bold;
+}
+
+.title_input{
+	font-size: inherit !important;
+}
+
+.title_input input{
+	width: 700px;
+}
+
+.sticker{
+	margin: auto;
+	max-width: 208px;
+	max-height: 208px;
+}
+
+.padding5{
+	padding: 5px;
+}
+
+.emoji{
+	width: 20px !important;
+	height: 20px !important;
+}
+
+input.emojiFnt{
+	width: 200px;
+}
+
+.emojiFnt{
+	font-family: "Apple Color Emoji","Twitter Color Emoji","Segoe UI Emoji","NotoColorEmoji","Segoe UI Symbol","Android Emoji","EmojiSymbols";
+}
